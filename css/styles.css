@@ -664,9 +664,57 @@ body {
   width: 24px;
   height: 24px;
   margin-left: auto;
+  margin-bottom: 24px;
 
   border-radius: 50%;
   background: var(--accent-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
+}
+
+.modal-title {
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--dark-color);
+
+margin-bottom: 14px;
+}
+
+/*--- Form input ---*/
+
+.form {
+  
+}
+
+.form-field {
+    position: relative;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form-label {
+  display: inline-block;
+  font-size: 12px;
+line-height: 1.33px;
+letter-spacing: 0.04em;
+color: #8E8F99;
+
+margin-bottom: 4px;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding-left: 38px;
+}
+
+.form-icon {
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 0;
 }
