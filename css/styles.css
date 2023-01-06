@@ -678,6 +678,10 @@ textarea {
   cursor: pointer;
 }
 
+.modal-close:focus {
+background-color: var(--button-avtive-color);
+}
+
 .modal-title {
   font-weight: 500;
   font-size: 16px;
@@ -826,6 +830,7 @@ textarea {
   margin-left: auto;
   width: 169px;
   height: 56px;
+  padding: 16px 32px;
 
   font-weight: 500;
   font-size: 16px;
@@ -836,6 +841,4 @@ textarea {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border-color: transparent;
-
-  padding: 16px 32px;
 }
